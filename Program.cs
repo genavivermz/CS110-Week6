@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace HelloWorld
 {
@@ -6,7 +7,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.Write("System Check - Enter operator ID or system name: ");
+            string userName = Console.ReadLine();
+            Console.WriteLine($"Hello, {userName} 👋");
         }
     }
 
