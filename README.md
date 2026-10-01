@@ -1,5 +1,9 @@
-## Context ♡
+## Context ⇪
 Technical context
+## Tests ⚐
+Test 1: Tried to add emoji, but just showed up as ?? in console upon running
+Test 2: Added Console.OutputEncoding = Encoding.UTF8 to make sure the Windows console could read the emoji + ran --> 👋 showed up properly!
+## Data path ⌘
 ### Input
 User types their name
 ### Variable
