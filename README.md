@@ -1,3 +1,5 @@
+## Context ♡
+Technical context
 ### Input
 User types their name
 ### Variable
